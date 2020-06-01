@@ -1,15 +1,12 @@
-package com.example.project;
+package org.hololink.inf111;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
 
 import java.io.*;
 
-public class TestHello {
+public class HelloWorldTest {
 
    @Test
    public void testHelloWorld()
@@ -19,7 +16,7 @@ public class TestHello {
      System.setOut(new PrintStream(bos));
 
      // action
-     Hello.main(null);
+     HelloWorld.main(null);
 
      // assertion
      assertEquals("Hello world!\n", bos.toString());
