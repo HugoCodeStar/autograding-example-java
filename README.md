@@ -1,7 +1,7 @@
 # Instructions
 * Le dossier [doc](/doc) contient la liste des travaux à faire.
 * Pour chaque énoncé, effectuer le travail demandé.
-* Chaque travail vient avec son test. La commande de test vous est fournie dans l'énoncé.
+* Chaque énoncé vient avec son test. La classe de test à le nom de la classe avec le postfix Test.
 
 # Liste des énoncés
 * [Hello World](doc/Hello%20World.md)
